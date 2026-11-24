@@ -1,0 +1,5 @@
+Method,Correct Benign,Correct Malignant,False Negative,False Positive,Total Images
+Grad-CAM,10,10,10,10,40
+Grad-CAM++,10,10,10,10,40
+LIME,10,10,10,10,40
+SHAP,10,10,10,10,40

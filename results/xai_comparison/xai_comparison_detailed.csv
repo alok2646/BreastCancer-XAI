@@ -1,0 +1,17 @@
+Method,Category,Folder,Images_Found,Expected_Images,Status
+Grad-CAM,Correct Benign,C:\Users\ALOK\OneDrive\Desktop\BreastCancer_XAI\results\xai\gradcam\correct_benign,10,10,Complete
+Grad-CAM,Correct Malignant,C:\Users\ALOK\OneDrive\Desktop\BreastCancer_XAI\results\xai\gradcam\correct_malignant,10,10,Complete
+Grad-CAM,False Positive,C:\Users\ALOK\OneDrive\Desktop\BreastCancer_XAI\results\xai\gradcam\false_positive,10,10,Complete
+Grad-CAM,False Negative,C:\Users\ALOK\OneDrive\Desktop\BreastCancer_XAI\results\xai\gradcam\false_negative,10,10,Complete
+Grad-CAM++,Correct Benign,C:\Users\ALOK\OneDrive\Desktop\BreastCancer_XAI\results\xai\gradcam_plus_plus\correct_benign,10,10,Complete
+Grad-CAM++,Correct Malignant,C:\Users\ALOK\OneDrive\Desktop\BreastCancer_XAI\results\xai\gradcam_plus_plus\correct_malignant,10,10,Complete
+Grad-CAM++,False Positive,C:\Users\ALOK\OneDrive\Desktop\BreastCancer_XAI\results\xai\gradcam_plus_plus\false_positive,10,10,Complete
+Grad-CAM++,False Negative,C:\Users\ALOK\OneDrive\Desktop\BreastCancer_XAI\results\xai\gradcam_plus_plus\false_negative,10,10,Complete
+SHAP,Correct Benign,C:\Users\ALOK\OneDrive\Desktop\BreastCancer_XAI\results\xai\shap\correct_benign,10,10,Complete
+SHAP,Correct Malignant,C:\Users\ALOK\OneDrive\Desktop\BreastCancer_XAI\results\xai\shap\correct_malignant,10,10,Complete
+SHAP,False Positive,C:\Users\ALOK\OneDrive\Desktop\BreastCancer_XAI\results\xai\shap\false_positive,10,10,Complete
+SHAP,False Negative,C:\Users\ALOK\OneDrive\Desktop\BreastCancer_XAI\results\xai\shap\false_negative,10,10,Complete
+LIME,Correct Benign,C:\Users\ALOK\OneDrive\Desktop\BreastCancer_XAI\results\xai\lime\correct_benign,10,10,Complete
+LIME,Correct Malignant,C:\Users\ALOK\OneDrive\Desktop\BreastCancer_XAI\results\xai\lime\correct_malignant,10,10,Complete
+LIME,False Positive,C:\Users\ALOK\OneDrive\Desktop\BreastCancer_XAI\results\xai\lime\false_positive,10,10,Complete
+LIME,False Negative,C:\Users\ALOK\OneDrive\Desktop\BreastCancer_XAI\results\xai\lime\false_negative,10,10,Complete

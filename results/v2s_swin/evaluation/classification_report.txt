@@ -1,0 +1,11 @@
+EFFICIENTNETV2-S + SWIN-TINY
+FINAL TEST CLASSIFICATION REPORT
+
+              precision    recall  f1-score   support
+
+      benign     0.9088    0.9230    0.9159     32236
+   malignant     0.8013    0.7702    0.7855     12994
+
+    accuracy                         0.8791     45230
+   macro avg     0.8551    0.8466    0.8507     45230
+weighted avg     0.8779    0.8791    0.8784     45230

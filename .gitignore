@@ -1,0 +1,35 @@
+﻿venv/
+venv_new/
+venv_quantum/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+dataset_patient_split.zip
+dataset/
+datasets/
+data/
+results/**/patient_split_features/*.pt
+.env
+.env.*
+.vscode/
+*.log
+.ipynb_checkpoints/
+.DS_Store
+
+# Dataset directories
+/IDC_regular_ps50_idx5/
+/dataset_base_14k/
+/dataset_base_28k/
+/dataset_base_final/
+/dataset_base_split/
+/dataset_patient_split/
+
+# Numbered patient folders at project root
+/[0-9]*/
+
+# Generated outputs
+/outputs/
+
+# Large archive files
+*.zip

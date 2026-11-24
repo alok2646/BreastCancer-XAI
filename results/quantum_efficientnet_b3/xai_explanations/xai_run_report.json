@@ -1,0 +1,106 @@
+[
+  {
+    "image": "C:\\Users\\ALOK\\OneDrive\\Desktop\\BreastCancer_XAI\\dataset_patient_split\\test\\benign\\10256_idx5_x1001_y1001_class0.png",
+    "actual_class": "benign",
+    "predicted_class": "benign",
+    "probabilities": [
+      0.8971754908561707,
+      0.10282449424266815
+    ],
+    "gradcam": "success",
+    "gradcam_plus_plus": "success",
+    "shap": {
+      "method": "Grouped Kernel SHAP",
+      "group_count": 32,
+      "samples": 40,
+      "top_group_indices_zero_based": [
+        26,
+        23,
+        19,
+        29,
+        12,
+        4,
+        24,
+        15,
+        11,
+        7,
+        21,
+        27,
+        25,
+        30,
+        28
+      ],
+      "top_group_shap_values": [
+        -0.0031571833415817603,
+        0.0023766923480381106,
+        0.0018881340152942208,
+        0.0014330299567148668,
+        0.0012569259165827796,
+        -0.0011677441020376462,
+        -0.0010001496915345298,
+        -0.0005969071185648158,
+        -0.0005843884117737001,
+        -0.00047147656866560183,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "note": "Grouped local explanation of the hybrid head; not individual-feature SHAP or a pixel attribution map."
+    },
+    "lime": "success"
+  },
+  {
+    "image": "C:\\Users\\ALOK\\OneDrive\\Desktop\\BreastCancer_XAI\\dataset_patient_split\\test\\benign\\10256_idx5_x1001_y1051_class0.png",
+    "actual_class": "benign",
+    "predicted_class": "benign",
+    "probabilities": [
+      0.9094423651695251,
+      0.09055762737989426
+    ],
+    "gradcam": "success",
+    "gradcam_plus_plus": "success",
+    "shap": {
+      "method": "Grouped Kernel SHAP",
+      "group_count": 32,
+      "samples": 40,
+      "top_group_indices_zero_based": [
+        25,
+        21,
+        7,
+        5,
+        1,
+        9,
+        4,
+        13,
+        10,
+        17,
+        24,
+        31,
+        28,
+        27,
+        29
+      ],
+      "top_group_shap_values": [
+        -0.0032371238155890513,
+        0.0018850164737820598,
+        0.00131351001311904,
+        -0.0010382750004535712,
+        -0.0007932400886351196,
+        0.0007585868120043924,
+        -0.0007523534177031174,
+        -0.0007325088545245746,
+        -0.00019006367252959492,
+        6.582734207921933e-05,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "note": "Grouped local explanation of the hybrid head; not individual-feature SHAP or a pixel attribution map."
+    },
+    "lime": "success"
+  }
+]

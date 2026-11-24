@@ -1,0 +1,98 @@
+{
+  "experiment": "patient-split pilot validation",
+  "checkpoint_epoch": 3,
+  "classes": [
+    "benign",
+    "malignant"
+  ],
+  "validation_samples": 44313,
+  "default_threshold": 0.5,
+  "default_threshold_results": {
+    "accuracy": 0.7443639564010561,
+    "confusion_matrix": [
+      [
+        23733,
+        9323
+      ],
+      [
+        2005,
+        9252
+      ]
+    ],
+    "class_metrics": {
+      "benign": {
+        "precision": 0.9220996192400341,
+        "recall": 0.7179634559535334,
+        "specificity": 0.8218886026472417,
+        "f1": 0.8073272782937034,
+        "support": 33056
+      },
+      "malignant": {
+        "precision": 0.49808882907133245,
+        "recall": 0.8218886026472417,
+        "specificity": 0.7179634559535334,
+        "f1": 0.6202735317779565,
+        "support": 11257
+      }
+    }
+  },
+  "threshold_analysis": [
+    {
+      "threshold": 0.3,
+      "accuracy": 0.2540338049782231,
+      "malignant_precision": 0.2540338049782231,
+      "malignant_recall": 1.0,
+      "malignant_specificity": 0.0,
+      "malignant_f1": 0.4051466618679143
+    },
+    {
+      "threshold": 0.35,
+      "accuracy": 0.3132715004626182,
+      "malignant_precision": 0.26917705975827033,
+      "malignant_recall": 0.9931598116727369,
+      "malignant_specificity": 0.08174007744433688,
+      "malignant_f1": 0.4235570457085488
+    },
+    {
+      "threshold": 0.4,
+      "accuracy": 0.5506961839640737,
+      "malignant_precision": 0.35457631676246176,
+      "malignant_recall": 0.937105800835036,
+      "malignant_specificity": 0.41910696999031943,
+      "malignant_f1": 0.5144849785407726
+    },
+    {
+      "threshold": 0.45,
+      "accuracy": 0.6744521923589014,
+      "malignant_precision": 0.43114761221918046,
+      "malignant_recall": 0.8814071244558941,
+      "malignant_specificity": 0.6039750726040658,
+      "malignant_f1": 0.5790487306682229
+    },
+    {
+      "threshold": 0.5,
+      "accuracy": 0.7443639564010561,
+      "malignant_precision": 0.49808882907133245,
+      "malignant_recall": 0.8218886026472417,
+      "malignant_specificity": 0.7179634559535334,
+      "malignant_f1": 0.6202735317779565
+    },
+    {
+      "threshold": 0.55,
+      "accuracy": 0.7899036400153454,
+      "malignant_precision": 0.5661659756677768,
+      "malignant_recall": 0.7399840099493649,
+      "malignant_specificity": 0.8069034365924492,
+      "malignant_f1": 0.6415094339622641
+    },
+    {
+      "threshold": 0.6,
+      "accuracy": 0.8131248166452283,
+      "malignant_precision": 0.6455114414238217,
+      "malignant_recall": 0.5863906902371857,
+      "malignant_specificity": 0.8903376089060987,
+      "malignant_f1": 0.6145324209840339
+    }
+  ],
+  "test_set_used": false
+}

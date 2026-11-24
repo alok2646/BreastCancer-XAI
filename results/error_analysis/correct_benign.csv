@@ -1,0 +1,11 @@
+dataset_index,image_path,true_label,predicted_label,true_class,predicted_class,confidence
+22391,dataset_patient_split\test\benign\13021_idx5_x2401_y801_class0.png,0,0,benign,benign,0.9982680082321167
+3839,dataset_patient_split\test\benign\10272_idx5_x1901_y1151_class0.png,0,0,benign,benign,0.9967978596687317
+836,dataset_patient_split\test\benign\10268_idx5_x1701_y751_class0.png,0,0,benign,benign,0.9989762306213379
+26002,dataset_patient_split\test\benign\8917_idx5_x1001_y1501_class0.png,0,0,benign,benign,0.9962478280067444
+9455,dataset_patient_split\test\benign\10291_idx5_x2401_y1751_class0.png,0,0,benign,benign,0.9980735778808594
+8396,dataset_patient_split\test\benign\10288_idx5_x2651_y1701_class0.png,0,0,benign,benign,0.9984594583511353
+7657,dataset_patient_split\test\benign\10288_idx5_x1801_y451_class0.png,0,0,benign,benign,0.9177087545394897
+4766,dataset_patient_split\test\benign\10272_idx5_x3151_y651_class0.png,0,0,benign,benign,0.9945777654647827
+25826,dataset_patient_split\test\benign\16569_idx5_x501_y651_class0.png,0,0,benign,benign,0.9990597367286682
+3533,dataset_patient_split\test\benign\10272_idx5_x1201_y801_class0.png,0,0,benign,benign,0.9057670831680298

@@ -1,0 +1,35 @@
+
+# Python virtual environments
+venv/
+venv_new/
+venv_quantum/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Large datasets
+dataset_patient_split.zip
+dataset/
+datasets/
+data/
+
+# Large extracted features
+results/**/patient_split_features/*.pt
+
+# Trained model weights - hosted separately
+saved_models/*.pth
+
+# Secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+
+# Temporary files
+*.log
+.ipynb_checkpoints/
+.DS_Store

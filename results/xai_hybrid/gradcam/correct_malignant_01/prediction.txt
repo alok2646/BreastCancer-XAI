@@ -1,0 +1,6 @@
+Hybrid EfficientNet-B3 + Swin Transformer
+Image: results/xai_hybrid/selected_samples/correct_malignant/correct_malignant_01.png
+Predicted class: malignant
+Confidence: 99.8838%
+Target layer: efficientnet.features.8.0
+Activation shape: (1, 1536, 7, 7)

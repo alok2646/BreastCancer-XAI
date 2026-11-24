@@ -1,0 +1,11 @@
+dataset_index,image_path,true_label,predicted_label,true_class,predicted_class,confidence
+43502,dataset_patient_split\test\malignant\9258_idx5_x1001_y1551_class1.png,1,1,malignant,malignant,0.6629918217658997
+34129,dataset_patient_split\test\malignant\10308_idx5_x1101_y2151_class1.png,1,1,malignant,malignant,0.8329507112503052
+44412,dataset_patient_split\test\malignant\9324_idx5_x1301_y451_class1.png,1,1,malignant,malignant,0.7729361653327942
+41182,dataset_patient_split\test\malignant\13402_idx5_x1801_y351_class1.png,1,1,malignant,malignant,0.9965416789054871
+32892,dataset_patient_split\test\malignant\10275_idx5_x1051_y1101_class1.png,1,1,malignant,malignant,0.8493355512619019
+32854,dataset_patient_split\test\malignant\10274_idx5_x2101_y1101_class1.png,1,1,malignant,malignant,0.6105050444602966
+34243,dataset_patient_split\test\malignant\10308_idx5_x1301_y1251_class1.png,1,1,malignant,malignant,0.8444315791130066
+37125,dataset_patient_split\test\malignant\12880_idx5_x1451_y1001_class1.png,1,1,malignant,malignant,0.9871391654014587
+37365,dataset_patient_split\test\malignant\12880_idx5_x1801_y1251_class1.png,1,1,malignant,malignant,0.9962409734725952
+42730,dataset_patient_split\test\malignant\8974_idx5_x1601_y1451_class1.png,1,1,malignant,malignant,0.8555873036384583

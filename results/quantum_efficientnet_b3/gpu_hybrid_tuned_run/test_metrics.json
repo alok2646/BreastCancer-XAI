@@ -1,0 +1,21 @@
+{
+  "classes": [
+    "benign",
+    "malignant"
+  ],
+  "best_epoch": 4,
+  "best_validation_loss": 0.4071537088780176,
+  "test_count": 4200,
+  "accuracy": 0.8385714285714285,
+  "precision_malignant": 0.8401913875598086,
+  "recall_malignant": 0.8361904761904762,
+  "f1_malignant": 0.8381861575178997,
+  "specificity_benign": 0.840952380952381,
+  "roc_auc_malignant": 0.9014069160997732,
+  "confusion_matrix": {
+    "true_benign_pred_benign": 1766,
+    "true_benign_pred_malignant": 334,
+    "true_malignant_pred_benign": 344,
+    "true_malignant_pred_malignant": 1756
+  }
+}

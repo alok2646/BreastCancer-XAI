@@ -1,0 +1,18 @@
+BREAST CANCER MODEL TEST EVALUATION
+============================================================
+
+Test Accuracy : 88.6889%
+Precision     : 80.5207%
+Recall        : 79.9754%
+F1 Score      : 80.2471%
+AUC Score     : 0.945229
+
+CLASSIFICATION REPORT
+              precision    recall  f1-score   support
+
+      benign     0.9195    0.9220    0.9208     32236
+   malignant     0.8052    0.7998    0.8025     12994
+
+    accuracy                         0.8869     45230
+   macro avg     0.8624    0.8609    0.8616     45230
+weighted avg     0.8867    0.8869    0.8868     45230

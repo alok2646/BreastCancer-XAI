@@ -1,0 +1,18 @@
+Hybrid EfficientNet-B3 + Swin-Tiny
+Final Test Evaluation
+
+Test Loss: 0.357487
+Accuracy: 88.2268%
+Precision: 79.4350%
+Recall: 79.6368%
+F1 Score: 79.5358%
+ROC-AUC: 0.934128
+
+              precision    recall  f1-score   support
+
+      benign     0.9178    0.9169    0.9174     32236
+   malignant     0.7944    0.7964    0.7954     12994
+
+    accuracy                         0.8823     45230
+   macro avg     0.8561    0.8566    0.8564     45230
+weighted avg     0.8824    0.8823    0.8823     45230

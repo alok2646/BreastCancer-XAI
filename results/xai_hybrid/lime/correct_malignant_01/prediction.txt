@@ -1,0 +1,8 @@
+Hybrid EfficientNet-B3 + Swin
+XAI Method: LIME
+
+Image: results/xai_hybrid/selected_samples/correct_malignant/correct_malignant_01.png
+Predicted class: benign
+Confidence: 98.78%
+LIME grid: 8 x 8
+LIME samples: 1000

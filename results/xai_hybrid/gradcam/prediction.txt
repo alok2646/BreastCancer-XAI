@@ -1,0 +1,5 @@
+Hybrid EfficientNet-B3 + Swin Transformer
+Image: dataset_base_final/test/benign/benign_06848.png
+Predicted Class: benign
+Confidence: 98.8515%
+Target Layer: swin.features.0.0
